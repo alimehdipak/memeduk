@@ -50,7 +50,7 @@ console.log(photo, '--------')
  },[])
 
  const handleOGImage = (ogimg) => {
-  let repogimg = ogimg.replace("https://memed.co.uk", "https://memedcouk.netlify.app")
+  let repogimg = ogimg.replace("https://memed.co.uk", "https://memed.netlify.app")
   return repogimg;
  }
 
