@@ -34,7 +34,7 @@ console.log(photo, '--------')
     setMyRender(true)
      // alert('third')
 
-     axios.get(`https://https://memed.co.uk/wp-json/my_posts/v2/post/${postid}`)
+     axios.get(`https://memed.co.uk/wp-json/my_posts/v2/post/${postid}`)
      .then(res => {
        console.log(res.data[0])
       setPersons(res?.data?.post_content)
